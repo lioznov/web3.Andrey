@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> <!-- атрибут, кодировка чтобы нормально отображались слова -->
+	<meta name="author" content="Андрей Лиознов"> <!-- атрибут для описания автора страницы -->
+	<meta name="description" content="Тестовая страница"> <!-- слова для поиска -->
+	<meta name="keywords" content="КубГУ"> <!-- ключевые слова хуй-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Главная страница</title>		
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+
+
+			<a href="#" class="navbar-brand">HTML&CSS</a>
+						<div class="header">
+                  <ul class="header-size">
+                    <a onclick="window.location = 'index.html'">My website</a>
+                </div>
+				<div class ="navbar-wrap">
+					<ul class="navbar-menu">
+						<li><a href="two.html">О нас</a></li>
+						<li><a href="two.html">Портфолио</a></li>
+						<li><a href="two.html">Цены</a></li>
+						<li><a href="two.html">Контакты</a></li>
+					</ul>
+
+					
+				</div>
+
+		</div>
+
+	</nav>
+<div class="tabfor">
+<div class="tab">
+<h1>Таблица</h1>
+      <table border="5">
+          <thead>
+          <tr>
+            <th>Название 1</th>
+            <th>Название 2</th>
+            <th>Название 3</th>
+            <th>Название 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="nch">
+            <td >Ячейка 1,1</td>
+            <td >Ячейка 1,2</td>
+            <td >Ячейка 1,3</td>
+            <td >Ячейка 1,4</td>
+          </tr>
+          <tr class="ch">
+            <td >Ячейка 2,1</td>
+            <td >Ячейка 2,2</td>
+            <td >Ячейка 2,3</td>
+            <td >Ячейка 2,4</td>
+          </tr>
+          <tr class="nch">
+            <td >Ячейка 3,1</td>
+              <td >Ячейка 3,2</td>
+              <td >Ячейка 3,3</td>
+              <td >Ячейка 3,4</td>
+            </tr>
+            <tr class="ch">
+                <td >Ячейка 4,1</td>
+              <td >Ячейка 4,2</td>
+              <td >Ячейка 4,3</td>
+              <td >Ячейка 4,4</td>
+            </tr>
+            <tr class="nch">
+              <td >Ячейка 5,1</td>
+              <td >Ячейка 5,2</td>
+              <td >Ячейка 5,3</td>
+              <td >Ячейка 5,4</td>
+            </tr>
+            <tr class="ch">
+              <td >Ячейка 6,1</td>
+              <td >Ячейка 6,2</td>
+              <td >Ячейка 6,3</td>
+              <td>Ячейка 6,4</td>
+            </tr>
+        </tbody>
+        </table>
+</div>
+
+
+
+<div class="forma">
+<h1 id="fragment">Форма: </h1>
+
+  <h4>
+  <form method="POST">
+
+    <label>
+      ФИО:<br> <input name="field-full-name" value="">
+    </label><br>
+
+    <label>
+      Номер телефона:<br> <input name="field-phone" value="" type="tel">
+    </label><br>
+
+    <label>
+      Email:<br> <input name="field-email"value="" type="email">
+    </label><br>
+
+    <label>
+      Дата рождения:<br> <input name="field-date" value="" type="date">
+    </label><br>
+
+    <label>
+      Пол:<br> 
+      <input type="radio" name="field-gender" value="Мужской">
+      Мужской
+    </label><br>
+
+    <label>
+      <input type="radio" name="field-gender" value="Женский">
+      Женский
+    </label><br>
+
+    <label>
+      Любимый язык программирования:
+      <br>
+      <select name="field-programming-leng" multiple="multiple" size="10">
+          <option value="Pascal">Pascal</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="PHP">PHP</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+          <option value="Haskel">Haskel</option>
+          <option value="Clojure">Clojure</option>
+          <option value="Prolog">Prolog</option>
+          <option value="Scala">Scala</option>
+      </select>
+    </label><br>
+
+    <label>
+        Биография:<br> <textarea name="field-bio"></textarea>
+    </label><br>
+
+    <label>
+      С контрактом ознакомлен(a)
+      <input type="checkbox" name="check">
+    </label><br>
+
+   <input type="submit" value="Сохранить">
+    
+  </form>
+  </h4>
+</div>
+</div>
+
+
+
+
+	<li><a href="http://kubsu.ru/">КубГУ http</a></li>
+	<li><a href="https://www.kubsu.ru/"title="Официальный сайт Кубанского государственного университета">КубГУ https</a></li><br>  <!-- коментарий -->
+	 <a href="http://kubsu.ru/"><img src="https://www.meme-arsenal.com/memes/43618a00a59063ea788fa3c985d831dd.jpg" id="foto" alt="Описание изображения" width="300" height="200"></a></li>
+	<li> <a href="two.html" target="_blank"> Сокращенная ссылку на внутреннюю страницу страницу</a></li>
+	<li> <a href="index.html" target="_blank"> Сокращенная ссылку на главную страницу</a></li>
+	<nav>
+		<li><a href="#foto">Ссылка на фрагмент текущей страницы</a></li>
+	</nav>
+	<li><a href="index.html?a=name&b=tel&c=number">Ссылка с тремя параметрами в URL</a></li>
+	<li><a href="index.html?id=1234">Ссылка с параметром id в URL</a></li>
+	<li><a href="index.html">Текущая</a></li>
+	<li><a href="about:blank">About</a></li>
+	<li><a href="../index1.html">Уровень выше</a></li>
+	<li><a href="../../index2.html">На 2 уровня выше</a></li>
+	<h1>
+		Иди в лучший универ КубГУ!!!<br>
+		Заходи прямо сейчас и не упусти свой шанс <a href="https://kubsu.ru">главная страница кубгу</a>
+	</h1>
+	<img src="https://www.meme-arsenal.com/memes/43618a00a59063ea788fa3c985d831dd.jpg" alt="Описание изображения" width="300" height="200" usemap="#image">
+    <map name="image">
+        <area shape="rect" coords="20,20,20,20" href="http://kubsu.ru/" alt="Область 1">
+        <area shape="circle" coords="20,20,20" href="http://kubsu.ru/" alt="Область 2">
+    </map> <br>
+	<li><a href="#">Ссылка с пустым href</a><br></li>
+	<li><a onclick="false">ссылка без href</a><br></li>
+	<li><a href="http://kubsu.ru/" rel="nofollow">запрещен переход поисковикам</a></li>
+	<li><a href="http://kubsu.ru/" rel="noindex">запрещен для индексации поисковиками</a></li>
+	<ol>
+        <li><a href="http://kubsu.ru/"title="Официальный сайт Кубанского государственного университета">КубГУ</a>;</li>
+        <li><a href="https://web.telegram.org/k/#-4006134311"title="телеграм">Телега</a>;</li>
+      </ol>
+
+	<li> <a href="two.html" target="_blank">ссылку на файл на сервере FTP с авторизацией</a></li>
+
+	<li> <a href="forma.html" target="_blank"> Форма </a></li>
+
+
+
+
+
+
+
+	<nav class="footer">
+          <div class="Name">
+                  <ul class="Name-size">
+                    <a onclick="window.location = 'index.html'">© Lioznov Andrey Alekseevich</a>
+                  </ul>
+                </div>
+        <div class="footer_container">
+              <a href="#"></a><br>
+              
+        </div>
+    </nav>
+     
+</body>
+</html>
